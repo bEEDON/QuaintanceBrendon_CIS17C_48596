@@ -37,12 +37,17 @@
 	var y=true;
 	document.write("<td>"+(x?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
 	document.write("<td>"+(y?'T':'F')+"</td>");
-	document.write("<td>"+(!x?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
+	document.write("<td>"+(!x?'T':'F')+"</td>");
 	document.write("<td>"+(!y?'T':'F')+"</td>");
-	document.write("<td>"+(x&&y?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
+	document.write("<td>"+(x&&y?'T':'F')+"</td>");
 	document.write("<td>"+(x||y?'T':'F')+"</td>");
-	document.write("<td>"+(x^y?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
-	document.write("<td>"+(y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y^y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y^x?'T':'F')+"</td>");
+	document.write("<td>"+(!(x&&y)?'T':'F')+"</td>");
+	document.write("<td>"+(!x||!y?'T':'F')+"</td>");
+	document.write("<td>"+(!(x||y)?'T':'F')+"</td>");
+	document.write("<td>"+(!x&&!y?'T':'F')+"</td>");
 </script>
 </tr>
 <tr>
@@ -50,29 +55,40 @@
 	var y=false;
 	document.write("<td>"+(x?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
 	document.write("<td>"+(y?'T':'F')+"</td>");
-	document.write("<td>"+(!x?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
+	document.write("<td>"+(!x?'T':'F')+"</td>");
 	document.write("<td>"+(!y?'T':'F')+"</td>");
-	document.write("<td>"+(x&&y?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
+	document.write("<td>"+(x&&y?'T':'F')+"</td>");
 	document.write("<td>"+(x||y?'T':'F')+"</td>");
-	document.write("<td>"+(x^y?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
+	document.write("<td>"+(x^y?'T':'F')+"</td>");
 	document.write("<td>"+(y?'T':'F')+"</td>");
 </script>
   </tr>
   <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
+<script type="text/javascript">
+	var x=false;
+	document.write("<td>"+(x?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
+	document.write("<td>"+(y?'T':'F')+"</td>");
+	document.write("<td>"+(!x?'T':'F')+"</td>");
+	document.write("<td>"+(!y?'T':'F')+"</td>");
+	document.write("<td>"+(x&&y?'T':'F')+"</td>");
+	document.write("<td>"+(x||y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y?'T':'F')+"</td>");
+	document.write("<td>"+(y?'T':'F')+"</td>");
+</script>
   </tr>
    <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
+<script type="text/javascript">
+	var x=false;
+	var y=false;
+	document.write("<td>"+(x?'T':'F')+"</td>");//If this is true:, put a T, if not true = put a F
+	document.write("<td>"+(y?'T':'F')+"</td>");
+	document.write("<td>"+(!x?'T':'F')+"</td>");
+	document.write("<td>"+(!y?'T':'F')+"</td>");
+	document.write("<td>"+(x&&y?'T':'F')+"</td>");
+	document.write("<td>"+(x||y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y?'T':'F')+"</td>");
+	document.write("<td>"+(y?'T':'F')+"</td>");
+</script>
 </table>
 
 </body>
