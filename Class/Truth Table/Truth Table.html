@@ -60,7 +60,12 @@
 	document.write("<td>"+(x&&y?'T':'F')+"</td>");
 	document.write("<td>"+(x||y?'T':'F')+"</td>");
 	document.write("<td>"+(x^y?'T':'F')+"</td>");
-	document.write("<td>"+(y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y^y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y^x?'T':'F')+"</td>");
+	document.write("<td>"+(!(x&&y)?'T':'F')+"</td>");
+	document.write("<td>"+(!x||!y?'T':'F')+"</td>");
+	document.write("<td>"+(!(x||y)?'T':'F')+"</td>");
+	document.write("<td>"+(!x&&!y?'T':'F')+"</td>");
 </script>
   </tr>
   <tr>
@@ -73,7 +78,12 @@
 	document.write("<td>"+(x&&y?'T':'F')+"</td>");
 	document.write("<td>"+(x||y?'T':'F')+"</td>");
 	document.write("<td>"+(x^y?'T':'F')+"</td>");
-	document.write("<td>"+(y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y^y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y^x?'T':'F')+"</td>");
+	document.write("<td>"+(!(x&&y)?'T':'F')+"</td>");
+	document.write("<td>"+(!x||!y?'T':'F')+"</td>");
+	document.write("<td>"+(!(x||y)?'T':'F')+"</td>");
+	document.write("<td>"+(!x&&!y?'T':'F')+"</td>");
 </script>
   </tr>
    <tr>
@@ -87,7 +97,12 @@
 	document.write("<td>"+(x&&y?'T':'F')+"</td>");
 	document.write("<td>"+(x||y?'T':'F')+"</td>");
 	document.write("<td>"+(x^y?'T':'F')+"</td>");
-	document.write("<td>"+(y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y^y?'T':'F')+"</td>");
+	document.write("<td>"+(x^y^x?'T':'F')+"</td>");
+	document.write("<td>"+(!(x&&y)?'T':'F')+"</td>");
+	document.write("<td>"+(!x||!y?'T':'F')+"</td>");
+	document.write("<td>"+(!(x||y)?'T':'F')+"</td>");
+	document.write("<td>"+(!x&&!y?'T':'F')+"</td>");
 </script>
 </table>
 
