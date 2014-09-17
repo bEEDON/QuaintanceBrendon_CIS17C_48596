@@ -38,6 +38,12 @@ public:
 
    // Overloaded [] operator declaration
    T &operator[](const int &);
+
+   // Push function for an array
+   T push();
+
+   // Pull function for an array
+   T pull();
 };
 
 //***********************************************************
@@ -145,5 +151,19 @@ T &SimpleVector<T>::operator[](const int &sub)
    if (sub < 0 || sub >= arraySize)
       subError();
    return aptr[sub];
+}
+
+//Function that will augment the array by 1 at the top to hold the new value pushed.
+template <class T>
+T SimpleVector::Push()
+{
+
+}
+
+//Function that takes one value off the top of the array and decreases the size by 1.
+template <class T>
+T SimpleVector::Pull()
+{
+
 }
 #endif
