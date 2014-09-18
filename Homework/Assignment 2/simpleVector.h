@@ -44,7 +44,7 @@ public:
    T &operator[](const int &);
 
    // Push function for an array
-   T push();
+   T push(int num);
 
    // Pull function for an array
    T pull();
