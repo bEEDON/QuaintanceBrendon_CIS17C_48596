@@ -1,6 +1,7 @@
 // SimpleVector class template
 #ifndef SIMPLEVECTOR_H
 #define SIMPLEVECTOR_H
+#include <vector>
 #include <iostream>
 #include <new>       // Needed for bad_alloc exception
 #include <cstdlib>   // Needed for the exit function
@@ -18,7 +19,10 @@ private:
 public:
    // Default constructor
    SimpleVector()
-      { aptr = 0; arraySize = 0;}
+      { aptr = 0; arraySize = 0; 
+		maxelem = num; 
+		s = new int[maxelem];
+   }
       
    // Constructor declaration
    SimpleVector(int);
@@ -155,15 +159,20 @@ T &SimpleVector<T>::operator[](const int &sub)
 
 //Function that will augment the array by 1 at the top to hold the new value pushed.
 template <class T>
-T SimpleVector::Push()
+T SimpleVector::push(int num)
 {
+	if(aptr == maxelem) return;
 
+	s[aptr++] = num;
 }
 
 //Function that takes one value off the top of the array and decreases the size by 1.
 template <class T>
-T SimpleVector::Pull()
+T SimpleVector::pull()
 {
+	if(aptr == 0){
+		return -1}
 
+	return s[--aptr];
 }
 #endif
