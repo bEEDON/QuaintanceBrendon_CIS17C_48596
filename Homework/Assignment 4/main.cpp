@@ -1,8 +1,8 @@
 /* 
  * File:   main.cpp
- * Author: Dr. Mark E. Lehr
- * Created on September 18, 2014, 1:55 PM
- * Purpose:  Explore creation of a linked list class Version 3
+ * Author: Brendon Quaintance
+ * Created on September 24, 2014, 1:55 PM
+ * Purpose:  Create a Linked List
  */
 
 //System Libraries
@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
         list.append(i);
     }
     //Print the data
-    cout<<list.toString()<<endl;
+    list.toString();
     //Exit stage right!
     return 0;
 }

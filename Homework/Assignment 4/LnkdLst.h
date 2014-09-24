@@ -7,6 +7,7 @@
 #ifndef LNKDLST_H
 #define	LNKDLST_H
 
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -14,7 +15,7 @@ class LnkdLst {
 public:
     LnkdLst(int);
     void append(int);
-    string toString();
+    void toString();
     virtual ~LnkdLst();
 private:
     struct Node{
