@@ -1,22 +1,20 @@
-﻿Build started 10/22/2014 9:01:59 PM.
-     1>Project "C:\Users\bEEDON\Documents\Visual Studio 2012\Projects\Recursion\Recursion.vcxproj" on node 2 (Build target(s)).
+﻿Build started 11/5/2014 8:43:13 PM.
+     1>Project "C:\Users\bEEDON\Documents\1. SCHOOL\CIS\CIS 17C\CIS17C_48596\Class\Recursion\Recursion.vcxproj" on node 2 (Build target(s)).
      1>InitializeBuildStatus:
-         Creating "Debug\Recursion.unsuccessfulbuild" because "AlwaysCreate" was specified.
+         Touching "Debug\Recursion.unsuccessfulbuild".
        ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
          main.cpp
-     1>c:\users\beedon\documents\visual studio 2012\projects\recursion\main.cpp(44): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
-     1>c:\users\beedon\documents\visual studio 2012\projects\recursion\main.cpp(51): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>c:\users\beedon\documents\visual studio 2012\projects\recursion\main.cpp(57): warning C4305: 'initializing' : truncation from 'double' to 'float'
-     1>c:\users\beedon\documents\visual studio 2012\projects\recursion\main.cpp(83): warning C4715: 'gcd' : not all control paths return a value
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bEEDON\Documents\Visual Studio 2012\Projects\Recursion\Debug\Recursion.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bEEDON\Documents\Visual Studio 2012\Projects\Recursion\Debug\Recursion.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bEEDON\Documents\Visual Studio 2012\Projects\Recursion\Debug\Recursion.lib" /MACHINE:X86 Debug\main.obj
-         Recursion.vcxproj -> C:\Users\bEEDON\Documents\Visual Studio 2012\Projects\Recursion\Debug\Recursion.exe
-       FinalizeBuildStatus:
-         Deleting file "Debug\Recursion.unsuccessfulbuild".
-         Touching "Debug\Recursion.lastbuildstate".
-     1>Done Building Project "C:\Users\bEEDON\Documents\Visual Studio 2012\Projects\Recursion\Recursion.vcxproj" (Build target(s)).
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\class\recursion\main.cpp(25): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\class\recursion\main.cpp(26): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\class\recursion\main.cpp(34): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\class\recursion\main.cpp(43): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\class\recursion\main.cpp(49): error C2084: function 'float tan(float)' already has a body
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\math.h(542) : see previous definition of 'tan'
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\class\recursion\main.cpp(53): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\class\recursion\main.cpp(55): error C2264: 'tan' : error in function definition or declaration; function not called
+     1>Done Building Project "C:\Users\bEEDON\Documents\1. SCHOOL\CIS\CIS 17C\CIS17C_48596\Class\Recursion\Recursion.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.62
+Time Elapsed 00:00:00.63

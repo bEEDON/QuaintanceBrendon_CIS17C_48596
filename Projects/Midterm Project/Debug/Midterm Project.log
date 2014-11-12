@@ -1,0 +1,39 @@
+﻿Build started 11/12/2014 12:16:45 AM.
+     1>Project "C:\Users\bEEDON\Documents\1. SCHOOL\CIS\CIS 17C\CIS17C_48596\Projects\Midterm Project\Midterm Project.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Midterm Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(144): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(172): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(182): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(207): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(279): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(285): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(330): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(336): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(342): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(348): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(354): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(530): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(576): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(629): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(736): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(850): warning C4804: '<' : unsafe use of type 'bool' in operation
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(864): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(1215): warning C4804: '<=' : unsafe use of type 'bool' in operation
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(1224): warning C4804: '<=' : unsafe use of type 'bool' in operation
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(1233): warning C4804: '<=' : unsafe use of type 'bool' in operation
+     1>c:\users\beedon\documents\1. school\cis\cis 17c\cis17c_48596\projects\midterm project\main.cpp(1082): warning C4715: 'itemBag' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bEEDON\Documents\1. SCHOOL\CIS\CIS 17C\CIS17C_48596\Projects\Midterm Project\Debug\Midterm Project.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\bEEDON\Documents\1. SCHOOL\CIS\CIS 17C\CIS17C_48596\Projects\Midterm Project\Debug\Midterm Project.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bEEDON\Documents\1. SCHOOL\CIS\CIS 17C\CIS17C_48596\Projects\Midterm Project\Debug\Midterm Project.lib" /MACHINE:X86 Debug\main.obj
+         Midterm Project.vcxproj -> C:\Users\bEEDON\Documents\1. SCHOOL\CIS\CIS 17C\CIS17C_48596\Projects\Midterm Project\Debug\Midterm Project.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Midterm Project.unsuccessfulbuild".
+         Touching "Debug\Midterm Project.lastbuildstate".
+     1>Done Building Project "C:\Users\bEEDON\Documents\1. SCHOOL\CIS\CIS 17C\CIS17C_48596\Projects\Midterm Project\Midterm Project.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.36
