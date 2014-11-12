@@ -313,19 +313,22 @@ void itemStore(Hero&Ally,Hero&Enemy){
 	//======== Start with no Items ===============
 	items["5.)Invisibility "]=0;
 	items["3.)Regeneration "]=0;
-	items["1.)Health Potion"]=0;;
+	items["1.)Health Potion"]=0;
 	items["2.)Mana Potion  "]=0;
 	items["4.)Double Damage"]=0;
 	items["6.)Haste        "]=0;
 
 	//======== Delete Any Existing Active Items ===============
-	while ((!itemCount.empty())&&(!doubleDamage.empty())&&(!invisibility.empty())&&(!regeneration.empty())&&(haste.empty()))
+	while ((!itemCount.empty())&&(!doubleDamage.empty())&&(!invisibility.empty())&&(!regeneration.empty())&&(!haste.empty()))
 	 {
 		 doubleDamage.pop();
 		 invisibility.pop();
 		 regeneration.pop();
 		 haste.pop();
 	 }
+	while(!itemCount.empty()){
+		itemCount.pop();
+	}
 
 	string name;
 	system("CLS");
@@ -568,7 +571,7 @@ void itemStoreRefresh(Hero&Ally,int gold){
 			<<"            3.) "<<item5<<"  "<<item5C<<" Gold   -Fully Restores Health & Mana\n"
 			<<"            4.) "<<item3<<" "<<item3C<<" Gold   -Doubles Your Attack Damage\n"
 			<<"            5.) "<<item4<<"  "<<item4C<<" Gold   -Causes Enemy's Attack to Miss\n"
-			<<"            6.) "<<item6<<"         "<<item6C<<" Gold   -Attack Twice in One Turn\n"
+			<<"            6.) "<<item6<<"         "<<item6C<<" Gold   -Increases Your Attack Speed\n"
 			<<"            7.) Exit\n"
 			<<"________________________________________________________________________________\n"
 			<<"                              Gold Remaining: "<<gold<<"\n";
