@@ -218,7 +218,6 @@ void printIntro(){
 	dots();
 	Sleep(1000);
 }
-
 /*================================ Hero Selection =========================================
 	Purpose: This function prompts the user the 3 different heroes and their advantages
 			 and disadvantages. The user then picks one of the three heros
@@ -1327,6 +1326,4 @@ void attack(Hero&Ally,Hero&Enemy,char answer){
 		Sleep(3000);
 		haste.pop();
 	}
-
-
 }
